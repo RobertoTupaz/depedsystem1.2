@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    src: url('{{ public_path('fonts/oet.ttf') }}') format('truetype');
+}
+
+@font-face {
+    font-family: 'Trajan';
+    font-style: normal;
+    font-weight: 400;
+    src: url('{{ public_path('fonts/trajan.ttf') }}') format('truetype');
+}
+
+@font-face {
+    font-family: 'DejaVuSans';
+    src: url('{{ public_path('fonts/deja.ttf') }}') format('truetype');
+}
+
+.peso-symbol {
+    font-family: 'DejaVuSans', sans-serif;
+}
+
+.old-english {
+    font-family: 'Poppins', sans-serif;
+}
+
+.trajan {
+    font-family: 'Trajan', sans-serif;
+}
