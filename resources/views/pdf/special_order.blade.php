@@ -6,38 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>{{$title}}</title>
 
-    <style>
-        @font-face {
-            font-family: 'Poppins';
-            font-style: normal;
-            font-weight: 400;
-            src: url('{{ asset('fonts/oet.ttf') }}') format('truetype');
-        }
-
-        @font-face {
-            font-family: 'Trajan';
-            font-style: normal;
-            font-weight: 400;
-            src: url('{{ asset('fonts/trajan.ttf') }}') format('truetype');
-        }
-
-        @font-face {
-            font-family: 'DejaVuSans';
-            src: url('{{ asset('fonts/deja.ttf') }}') format('truetype');
-        }
-
-        .peso-symbol {
-            font-family: 'DejaVuSans', sans-serif;
-        }
-
-        .old-english {
-            font-family: 'Poppins', sans-serif;
-        }
-
-        .trajan {
-            font-family: 'Trajan', sans-serif;
-        }
-    </style>
+    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
 </head>
 
 <body style="font-family: Arial, sans-serif; margin-right: 40px; margin-left: 40px;">
